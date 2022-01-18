@@ -1,4 +1,4 @@
-package com.pip.chat.matrix;
+package com.test.chat.matrix;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MatrixApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MatrixApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(MatrixApplication.class, args);
+    }
 }
